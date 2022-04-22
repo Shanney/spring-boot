@@ -3,10 +3,7 @@ package com.example.springboot.portal.dao.impl;
 import com.example.springboot.portal.Constants;
 import com.example.springboot.portal.dao.IUserDao;
 import com.example.springboot.portal.entity.User;
-import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.orm.jpa.EntityManagerFactoryUtils;
-import org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.EntityManager;
